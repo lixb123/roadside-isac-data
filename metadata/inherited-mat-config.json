@@ -1,0 +1,182 @@
+{
+  "M": 6,
+  "N": 8,
+  "powerW": 1,
+  "noiseW": 0.005,
+  "sensingNoiseW": 0.005,
+  "rcs": 1,
+  "echoThreshold": 10,
+  "rateMin": 1,
+  "outer": 1,
+  "inner": 2,
+  "initializeAux": 1,
+  "slotSeconds": 20,
+  "slots": 6,
+  "rho": 0.995,
+  "innovation": 0.1,
+  "probeFraction": 0.04,
+  "acquisitionFraction": 0.03,
+  "acquisitionDelay": 0.2,
+  "probeNoise": 0.01,
+  "maxAgeSeconds": 40,
+  "riskMargin": 0.08,
+  "optimizationRateMargin": 0.1,
+  "optimizationEchoFactor": 1.2,
+  "optimizationJamMargin": 0.1,
+  "periodSeconds": 40,
+  "residualThreshold": 0.08,
+  "trainSeeds": [
+    4101,
+    4102,
+    4103,
+    4104,
+    4105,
+    4106,
+    4107,
+    4108,
+    4109,
+    4110,
+    4111,
+    4112,
+    4113,
+    4114,
+    4115,
+    4116
+  ],
+  "validationSeeds": [
+    5101,
+    5102,
+    5103,
+    5104
+  ],
+  "testSeeds": [
+    7101,
+    7102,
+    7103,
+    7104,
+    7105,
+    7106
+  ],
+  "sensitivityRho": [
+    0.999,
+    0.995,
+    0.98
+  ],
+  "sensitivitySensingNoise": [
+    0.0025,
+    0.005,
+    0.01
+  ],
+  "sensitivityDelay": [
+    0.2,
+    2.0,
+    5.0
+  ],
+  "featureNames": [
+    "age_seconds",
+    "probe_residual",
+    "estimated_qos_margin",
+    "estimated_echo_margin",
+    "estimated_jam_margin",
+    "paid_beam_power_residual",
+    "angular_rate_rad_s",
+    "forecast_array_loss",
+    "estimated_blockage_db",
+    "power_drop_db_s",
+    "forecast_qos_proxy"
+  ],
+  "description": "Causal paid noisy telemetry and pilot histories; 5s constant-velocity/angular prediction. Same normalized propagation and snapshot limits as mobility-stress.",
+  "carrierHz": 2400000000.0,
+  "lightSpeed": 299792458,
+  "referenceDistance": 100,
+  "bsPosition": [
+    0,
+    0,
+    10
+  ],
+  "irsPosition": [
+    20,
+    -20,
+    15
+  ],
+  "initialPositions": [
+    [
+      140.0,
+      0.0,
+      40.0
+    ],
+    [
+      110.0,
+      0.0,
+      1.5
+    ],
+    [
+      90.0,
+      0.0,
+      1.5
+    ],
+    [
+      150.0,
+      0.0,
+      35.0
+    ]
+  ],
+  "ricianKdB": 25,
+  "scatterers": 24,
+  "scoreStepSeconds": 1,
+  "nominalSpeed": 2,
+  "speedSpread": 0.25,
+  "blockageDb": 8,
+  "blockageDuration": 16,
+  "trainRegimes": [
+    "cruise",
+    "turn_blockage"
+  ],
+  "testRegimes": [
+    "cruise",
+    "turn_blockage",
+    "ood"
+  ],
+  "oodSpeed": 5,
+  "oodBlockageDb": 12,
+  "oodBlockageDuration": 24,
+  "initialPowerFractions": [
+    0.27,
+    0.12,
+    0.05,
+    0.56
+  ],
+  "recoveryCodebookSize": 16,
+  "beamResidualThreshold": 0.15,
+  "predictionHorizonSeconds": 5,
+  "historySeconds": 4,
+  "positionNoiseStdM": 0.2,
+  "telemetrySeedOffset": 930000,
+  "forecastMarginThreshold": 0.08,
+  "directionTimes": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100,
+    105,
+    110,
+    115
+  ]
+}

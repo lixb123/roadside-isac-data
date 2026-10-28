@@ -1,0 +1,9 @@
+{
+  "margin": 0.02,
+  "origin": "User explicitly selected at most2 percentage points after initial screening output;2pp sensitivity was included in frozen protocol before scoring. Do not relabel post-result selection as a prospective primary confirmation.",
+  "sensitivities": [
+    0.01,
+    0.02,
+    0.05
+  ]
+}

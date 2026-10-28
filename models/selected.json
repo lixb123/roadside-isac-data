@@ -1,0 +1,26 @@
+{
+  "full": {
+    "depth": 8,
+    "leaf": 24,
+    "validation_score": 0.8340990729166667,
+    "models": [
+      "full-d8-l24-s31.joblib",
+      "full-d8-l24-s47.joblib",
+      "full-d8-l24-s59.joblib",
+      "full-d8-l24-s71.joblib",
+      "full-d8-l24-s89.joblib"
+    ]
+  },
+  "base": {
+    "depth": 8,
+    "leaf": 24,
+    "validation_score": 0.8340840729166668,
+    "models": [
+      "base-d8-l24-s31.joblib",
+      "base-d8-l24-s47.joblib",
+      "base-d8-l24-s59.joblib",
+      "base-d8-l24-s71.joblib",
+      "base-d8-l24-s89.joblib"
+    ]
+  }
+}

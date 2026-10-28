@@ -1,0 +1,77 @@
+[
+  {
+    "file": "metadata/original/protocol.md",
+    "sha256": "353bc6bbd928e48d8fe6d33cebd429998441fb20fc07d8df846867afeeae5a7b",
+    "original_source": "vtm-selective-isac/submission-validation/protocol.md"
+  },
+  {
+    "file": "source/vtm-selective-isac/submission-validation/export_submission_assets.m",
+    "sha256": "8a6236842c2014d9b42a536c5777d2c45e1da0c4e79a2ce969d586c2e4800383",
+    "original_source": "vtm-selective-isac/submission-validation/export_submission_assets.m"
+  },
+  {
+    "file": "source/vtm-selective-isac/submission-validation/validate_resources.py",
+    "sha256": "54f0a6c9ecf2167fc773cd7cf205d33b7c296a316741c9c586ec0d94bd0a8721",
+    "original_source": "vtm-selective-isac/submission-validation/validate_resources.py"
+  },
+  {
+    "file": "source/vtm-selective-isac/submission-validation/explore_initializer.py",
+    "sha256": "89220ead182494e85c3709b8cdc81016b7cb8f449c361ac9a0a4da1f79ba5d9a",
+    "original_source": "vtm-selective-isac/submission-validation/explore_initializer.py"
+  },
+  {
+    "file": "source/vtm-selective-isac/budget-ai-confirmation/confirmation.py",
+    "sha256": "7a3c8e40f2d241f1bc4db451fef1607333906970414274afa84ed99dc2bd74bb",
+    "original_source": "vtm-selective-isac/budget-ai-confirmation/confirmation.py"
+  },
+  {
+    "file": "source/vtm-selective-isac/direction-validation/direction_env.py",
+    "sha256": "84f3cf5e8339bdac7d1d000cfa9a17db10c7b97e64ce9bc50b25f43ee08a1e27",
+    "original_source": "vtm-selective-isac/direction-validation/direction_env.py"
+  },
+  {
+    "file": "models/selected.json",
+    "sha256": "e032214e28f6062d92da582cf9a1807499d5c05a09cc18d0d469f59d3a9825fe",
+    "original_source": "vtm-selective-isac/budget-ai-confirmation/models/selected.json"
+  },
+  {
+    "file": "models/full-d8-l24-s31.joblib",
+    "sha256": "6b551fcb3a21728c978a06fd4a28feed980b75a5b99e112902db8e5f1bd73410",
+    "original_source": "vtm-selective-isac/budget-ai-confirmation/models/full-d8-l24-s31.joblib"
+  },
+  {
+    "file": "models/full-d8-l24-s47.joblib",
+    "sha256": "f7bbae2fb6d3cdc5efe739df6ff1868e84f1c8d8b6e7347c00e12413213da490",
+    "original_source": "vtm-selective-isac/budget-ai-confirmation/models/full-d8-l24-s47.joblib"
+  },
+  {
+    "file": "models/full-d8-l24-s59.joblib",
+    "sha256": "cfb165f7b3d5ca3e19cc33e86f81c7fe62036399486233d04467544459890968",
+    "original_source": "vtm-selective-isac/budget-ai-confirmation/models/full-d8-l24-s59.joblib"
+  },
+  {
+    "file": "models/full-d8-l24-s71.joblib",
+    "sha256": "558c25d883ded25c5146be6197972e00f5450584f4c0a155e7df4c6949eef0b5",
+    "original_source": "vtm-selective-isac/budget-ai-confirmation/models/full-d8-l24-s71.joblib"
+  },
+  {
+    "file": "models/full-d8-l24-s89.joblib",
+    "sha256": "610f698fce02028439f00b2a15ee31f72b4abf33103a359a354205a8a60171cb",
+    "original_source": "vtm-selective-isac/budget-ai-confirmation/models/full-d8-l24-s89.joblib"
+  },
+  {
+    "file": "source/vtm-selective-isac/solve_inherited.m",
+    "sha256": "0371da3a5a065cedaf049d8761629044f564bde3bc132bbd80778e166a8cf005",
+    "original_source": "vtm-selective-isac/solve_inherited.m"
+  },
+  {
+    "file": "source/vtm-selective-isac/evaluate_isac.m",
+    "sha256": "2f948fdaa527d6e02c7f41e6a546e138591c3724a363100b63564642876eef87",
+    "original_source": "vtm-selective-isac/evaluate_isac.m"
+  },
+  {
+    "file": "source/vtm-selective-isac/mobility-stress/mobility_initializer.m",
+    "sha256": "6311166311654ffe9159021311cb7916c2a35ffb7fe978d70fcb89d6a6c96eb2",
+    "original_source": "vtm-selective-isac/mobility-stress/mobility_initializer.m"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "scan": {
+    "init_s": 0.0025901,
+    "solve_s": 0.6836681833333333,
+    "total_s": 0.6862582833333333,
+    "initial_feasible": 0.9166666666666666,
+    "initial_margin": 0.044572298253377475,
+    "accepted": 0.875,
+    "returned_margin": -0.0025667004078230387,
+    "secrecy": 6.108557519686383,
+    "fallback": 0.0,
+    "failed": 0.0,
+    "snapshots": 24
+  },
+  "learned": {
+    "init_s": 0.005841129167283181,
+    "solve_s": 0.7738362541666666,
+    "total_s": 0.7796773833339499,
+    "initial_feasible": 0.9166666666666666,
+    "initial_margin": 0.044568638076444705,
+    "accepted": 0.875,
+    "returned_margin": -0.002552791522174866,
+    "secrecy": 6.108537993092358,
+    "fallback": 0.125,
+    "failed": 0.0,
+    "snapshots": 24
+  },
+  "simple": {
+    "init_s": 0.0005644875,
+    "solve_s": 0.6768760041666666,
+    "total_s": 0.6774404916666668,
+    "initial_feasible": 0.9166666666666666,
+    "initial_margin": 0.04348422331016332,
+    "accepted": 0.875,
+    "returned_margin": 0.0042444196537039505,
+    "secrecy": 6.086616948453698,
+    "fallback": 0.125,
+    "failed": 0.0,
+    "snapshots": 24
+  }
+}

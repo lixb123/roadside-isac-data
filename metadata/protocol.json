@@ -1,0 +1,88 @@
+{
+  "version": "1.0.0",
+  "release_date": "2026-10-28",
+  "physical_seeds": [
+    16101,
+    16102,
+    16103,
+    16104,
+    16105,
+    16106,
+    16107,
+    16108,
+    16109,
+    16110,
+    16111,
+    16112,
+    16113,
+    16114,
+    16115,
+    16116,
+    16117,
+    16118,
+    16119,
+    16120,
+    16121,
+    16122,
+    16123,
+    16124
+  ],
+  "regimes": [
+    "cruise",
+    "turn_blockage",
+    "ood"
+  ],
+  "learner_seeds": [
+    31,
+    47,
+    59,
+    71,
+    89
+  ],
+  "mission_seconds": 120,
+  "decision_opportunities_seconds": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "integration_grids_seconds": [
+    0.0025,
+    0.00125
+  ],
+  "deadline_seconds": [
+    1,
+    5,
+    20
+  ],
+  "primary_deadline_seconds": 5,
+  "max_csi_requests": 6,
+  "online_compute_ledger_seconds": 12,
+  "acquisition_delay_seconds": 0.2,
+  "acquisition_airtime_debit_seconds": 0.6,
+  "continuous_observation_rate_fraction": 0.04,
+  "sparse_rule": {
+    "age_seconds": 120,
+    "relative_residual": 0.32,
+    "margin": 0.08
+  },
+  "bootstrap": {
+    "seed": 20261024,
+    "resamples": 20000,
+    "cluster": "physical seed; average three regimes for compute and two adverse regimes for delivery; average five learners within trajectory"
+  },
+  "timing": "Recorded MATLAB restart+solve+acceptance, Python causal decision/inference, and setup/model loading; fine grid reuses primary decision/setup timings",
+  "source_assets": "Inherited MAT config contains legacy seeds and schedules. Effective main protocol is given here and in the frozen implementation.",
+  "environment": {
+    "matlab": "R2023b Update 4",
+    "mosek": "11.2",
+    "python": "3.14",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "scikit_learn": "1.9.1",
+    "joblib": "1.6.0"
+  }
+}

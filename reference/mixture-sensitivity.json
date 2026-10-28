@@ -1,0 +1,9 @@
+{
+  "compute_saved_vs_sparse_by_regime": {
+    "cruise": 3.91482233333351,
+    "turn_blockage": -0.5384926466675086,
+    "ood": 0.11655388333178163
+  },
+  "adverse_equal_mix_saved_s": -0.2109693816678635,
+  "cruise_fraction_break_even": 0.05113427827701023
+}

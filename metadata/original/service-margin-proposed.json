@@ -1,0 +1,9 @@
+{
+  "margin": 0.01,
+  "origin": "proposed engineering screen; no user response yet; not a service standard",
+  "sensitivities": [
+    0.01,
+    0.02,
+    0.05
+  ]
+}

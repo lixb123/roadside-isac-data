@@ -1,0 +1,20 @@
+[
+  {
+    "scenario": 1,
+    "availability": 1.0,
+    "acquired_feasible_aged_failure": 0.0,
+    "unresolved_failure": 0.0
+  },
+  {
+    "scenario": 2,
+    "availability": 0.567767361111111,
+    "acquired_feasible_aged_failure": 0.29830555555555566,
+    "unresolved_failure": 0.13392708333333345
+  },
+  {
+    "scenario": 3,
+    "availability": 0.323795138888889,
+    "acquired_feasible_aged_failure": 0.3153819444444444,
+    "unresolved_failure": 0.3608229166666667
+  }
+]

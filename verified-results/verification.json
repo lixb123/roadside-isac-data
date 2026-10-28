@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "hashed_files_checked": 134,
+  "trajectory_rows_per_grid": 504,
+  "decision_rows_per_grid": 12096,
+  "independent_seed_clusters": 24,
+  "historical_rows": 18,
+  "initializer_rows": 72,
+  "mat_reference_check": true,
+  "mat_reference_max_abs_error": 1.4566126083082054e-11,
+  "checks": [
+    "raw-file checksums",
+    "pre-scoring frozen input hashes",
+    "training dimensions",
+    "table 1 and figures 4-6",
+    "paired compute statistics and bootstrap intervals",
+    "five learner summaries",
+    "full compute accounting",
+    "resolution repeat",
+    "initializer pilot",
+    "432 recorded candidate timers and flags"
+  ]
+}

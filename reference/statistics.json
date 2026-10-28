@@ -1,0 +1,253 @@
+{
+  "summary": [
+    {
+      "policy": "periodic-local",
+      "regime": "cruise",
+      "joint_delivery_5s": 1.0,
+      "availability": 1.0,
+      "requests": 6.0,
+      "total_compute_s": 7.963156041670345,
+      "decision_s": 0.0022398125036791803,
+      "solver_s": 7.9533680875,
+      "setup_s": 0.007548141666666668,
+      "timeouts": 0.0
+    },
+    {
+      "policy": "periodic-local",
+      "regime": "turn_blockage",
+      "joint_delivery_5s": 0.8194444444444445,
+      "availability": 0.6112647569444444,
+      "requests": 6.0,
+      "total_compute_s": 7.342648054165454,
+      "decision_s": 0.002097749998786943,
+      "solver_s": 7.336912016666666,
+      "setup_s": 0.0036382875,
+      "timeouts": 0.0
+    },
+    {
+      "policy": "periodic-local",
+      "regime": "ood",
+      "joint_delivery_5s": 0.5694444444444444,
+      "availability": 0.36929513888888893,
+      "requests": 6.0,
+      "total_compute_s": 7.110016079166293,
+      "decision_s": 0.002425749999626229,
+      "solver_s": 7.104495974999999,
+      "setup_s": 0.003094354166666667,
+      "timeouts": 0.0
+    },
+    {
+      "policy": "periodic-local",
+      "regime": "all",
+      "joint_delivery_5s": 0.7962962962962963,
+      "availability": 0.6601866319444444,
+      "requests": 6.0,
+      "total_compute_s": 7.471940058334031,
+      "decision_s": 0.0022544375006974507,
+      "solver_s": 7.464925359722222,
+      "setup_s": 0.004760261111111112,
+      "timeouts": 0.0
+    },
+    {
+      "policy": "sparse-local",
+      "regime": "cruise",
+      "joint_delivery_5s": 1.0,
+      "availability": 1.0,
+      "requests": 4.541666666666667,
+      "total_compute_s": 5.92579950833472,
+      "decision_s": 0.0018123250013862464,
+      "solver_s": 5.916439041666666,
+      "setup_s": 0.007548141666666668,
+      "timeouts": 0.0
+    },
+    {
+      "policy": "sparse-local",
+      "regime": "turn_blockage",
+      "joint_delivery_5s": 0.7291666666666666,
+      "availability": 0.5520026041666667,
+      "requests": 3.5833333333333335,
+      "total_compute_s": 4.391490100001003,
+      "decision_s": 0.0017929250010032167,
+      "solver_s": 4.3860588875,
+      "setup_s": 0.0036382875,
+      "timeouts": 0.0
+    },
+    {
+      "policy": "sparse-local",
+      "regime": "ood",
+      "joint_delivery_5s": 0.5694444444444444,
+      "availability": 0.35763628472222225,
+      "requests": 4.208333333333333,
+      "total_compute_s": 4.964173358332459,
+      "decision_s": 0.0019851999991260527,
+      "solver_s": 4.959093804166667,
+      "setup_s": 0.003094354166666667,
+      "timeouts": 0.0
+    },
+    {
+      "policy": "sparse-local",
+      "regime": "all",
+      "joint_delivery_5s": 0.7662037037037037,
+      "availability": 0.6365462962962963,
+      "requests": 4.111111111111111,
+      "total_compute_s": 5.093820988889394,
+      "decision_s": 0.0018634833338385054,
+      "solver_s": 5.087197244444444,
+      "setup_s": 0.004760261111111112,
+      "timeouts": 0.0
+    },
+    {
+      "policy": "ai-mean",
+      "regime": "cruise",
+      "joint_delivery_5s": 1.0,
+      "availability": 1.0,
+      "requests": 1.5333333333333332,
+      "total_compute_s": 2.0109771750012095,
+      "decision_s": 0.026563848333595763,
+      "solver_s": 1.9691981849999998,
+      "setup_s": 0.015215141667613822,
+      "timeouts": 0.0
+    },
+    {
+      "policy": "ai-mean",
+      "regime": "turn_blockage",
+      "joint_delivery_5s": 0.8333333333333334,
+      "availability": 0.6161501736111111,
+      "requests": 4.008333333333334,
+      "total_compute_s": 4.929982746668512,
+      "decision_s": 0.0265038083342309,
+      "solver_s": 4.892173650833333,
+      "setup_s": 0.011305287500947156,
+      "timeouts": 0.0
+    },
+    {
+      "policy": "ai-mean",
+      "regime": "ood",
+      "joint_delivery_5s": 0.611111111111111,
+      "availability": 0.38927552083333333,
+      "requests": 4.083333333333333,
+      "total_compute_s": 4.847619475000678,
+      "decision_s": 0.027226250833064115,
+      "solver_s": 4.8096318700000005,
+      "setup_s": 0.010761354167613821,
+      "timeouts": 0.0
+    },
+    {
+      "policy": "ai-mean",
+      "regime": "all",
+      "joint_delivery_5s": 0.8148148148148148,
+      "availability": 0.6684752314814815,
+      "requests": 3.2083333333333335,
+      "total_compute_s": 3.9295264655568,
+      "decision_s": 0.02676463583363026,
+      "solver_s": 3.8903345686111113,
+      "setup_s": 0.012427261112058267,
+      "timeouts": 0.0
+    }
+  ],
+  "comparisons": [
+    {
+      "baseline": "periodic-local",
+      "clusters": 24,
+      "adverse_delivery_difference": 0.027777777777777762,
+      "delivery_difference_ci": [
+        0.013888888888888876,
+        0.04513888888888886
+      ],
+      "observed_mean_nonnegative_loss": 0.0,
+      "seeds_with_loss": 0,
+      "simultaneous_loss_upper": 0.14247359772252563,
+      "NI_1pp": false,
+      "NI_2pp": false,
+      "NI_5pp": false,
+      "compute_saved_s": 3.542413592777231,
+      "compute_saved_ci": [
+        3.3458376594220804,
+        3.7557855181457285
+      ],
+      "relative_compute_saving": 0.47409555819791466,
+      "signflip_p": 1.1920928955078125e-07,
+      "sign_test_p": 1.1920928955078125e-07,
+      "compute_difference_sd": 0.5259598706618683,
+      "paired_standardized_effect": 6.735140436321606,
+      "holm_p": 2.384185791015625e-07
+    },
+    {
+      "baseline": "sparse-local",
+      "clusters": 24,
+      "adverse_delivery_difference": 0.07291666666666669,
+      "delivery_difference_ci": [
+        0.041666666666666685,
+        0.10416666666666667
+      ],
+      "observed_mean_nonnegative_loss": 0.0034722222222222238,
+      "seeds_with_loss": 1,
+      "simultaneous_loss_upper": 0.2112016834569731,
+      "NI_1pp": false,
+      "NI_2pp": false,
+      "NI_5pp": false,
+      "compute_saved_s": 1.1642945233325945,
+      "compute_saved_ci": [
+        1.0044279328262846,
+        1.3296827460603302
+      ],
+      "relative_compute_saving": 0.22856997249651007,
+      "signflip_p": 1.1920928955078125e-07,
+      "sign_test_p": 1.1920928955078125e-07,
+      "compute_difference_sd": 0.41009481759906913,
+      "paired_standardized_effect": 2.8390861658507274,
+      "holm_p": 2.384185791015625e-07
+    }
+  ],
+  "learning_seeds": [
+    {
+      "policy": "ai-31",
+      "requests": 3.138888888888889,
+      "compute": 3.8430101513888055,
+      "adverse_delivery": 0.7222222222222223
+    },
+    {
+      "policy": "ai-47",
+      "requests": 3.2083333333333335,
+      "compute": 3.933052520834254,
+      "adverse_delivery": 0.7222222222222223
+    },
+    {
+      "policy": "ai-59",
+      "requests": 3.2222222222222223,
+      "compute": 3.936454370833311,
+      "adverse_delivery": 0.7222222222222223
+    },
+    {
+      "policy": "ai-71",
+      "requests": 3.2222222222222223,
+      "compute": 3.9479826041692943,
+      "adverse_delivery": 0.7222222222222223
+    },
+    {
+      "policy": "ai-89",
+      "requests": 3.25,
+      "compute": 3.987132680558334,
+      "adverse_delivery": 0.7222222222222223
+    }
+  ],
+  "unit": "24 physical seed clusters; three correlated regimes; five learners averaged within trajectory",
+  "initial_proposed_primary_margin": {
+    "margin": 0.01,
+    "origin": "proposed engineering screen; no user response yet; not a service standard",
+    "sensitivities": [
+      0.01,
+      0.02,
+      0.05
+    ]
+  },
+  "user_decision_margin": {
+    "margin": 0.02,
+    "origin": "User explicitly selected at most2 percentage points after initial screening output;2pp sensitivity was included in frozen protocol before scoring. Do not relabel post-result selection as a prospective primary confirmation.",
+    "sensitivities": [
+      0.01,
+      0.02,
+      0.05
+    ]
+  }
+}

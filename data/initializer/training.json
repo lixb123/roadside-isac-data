@@ -1,0 +1,26 @@
+{
+  "states": 48,
+  "label_counts": [
+    33,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "fit_s": 0.06832639999993262,
+  "features": 52,
+  "scope": "historical validation pilot; Python uses all design margins; MATLAB independently rechecks constraints"
+}

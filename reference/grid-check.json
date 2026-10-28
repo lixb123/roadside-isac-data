@@ -1,0 +1,13 @@
+{
+  "joint_delivery_1s": 0.0,
+  "joint_delivery_5s": 0.0,
+  "joint_delivery_20s": 0.0,
+  "availability": 0.00044791666666665897,
+  "goodput": 0.002486697081008682,
+  "requests": 0.0,
+  "total_compute_s": 0.0,
+  "changed_actions": 0,
+  "changed_acceptance": 0,
+  "trajectory_rows_per_grid": 504,
+  "decision_rows_per_grid": 12096
+}

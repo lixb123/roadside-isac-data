@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this version of the companion data when using these results."
+type: dataset
+title: "Resource-Aware Updates for Low-Altitude ITS: Companion Data"
+version: 1.0.0
+date-released: 2026-10-28
+abstract: "Simulated trajectories, frozen results, models and numerical reconstruction for resource-aware CSI updates in roadside ISAC. GitHub release v1.0.0."
+authors:
+  - family-names: Li
+    given-names: Xiaobao
+    affiliation: Harbin Institute of Technology
+    orcid: "https://orcid.org/0009-0001-5416-3943"
+  - family-names: Liu
+    given-names: Jinlong
+    affiliation: Harbin Institute of Technology
+url: "https://github.com/lixb123/roadside-isac-data/tree/v1.0.0"
+repository-code: "https://github.com/lixb123/roadside-isac-data"
